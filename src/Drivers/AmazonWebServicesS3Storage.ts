@@ -6,7 +6,8 @@
  */
 
 import { Readable } from 'stream';
-import S3, { ClientConfiguration, ObjectList } from 'aws-sdk/clients/s3';
+import { ClientConfiguration, ObjectList } from 'aws-sdk/clients/s3';
+import * as S3 from 'aws-sdk/clients/s3';
 import { Storage } from '..';
 import { UnknownException, NoSuchBucket, FileNotFound, PermissionMissing } from '../Exceptions';
 import {
