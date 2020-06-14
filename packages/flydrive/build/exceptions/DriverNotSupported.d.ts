@@ -1,0 +1,12 @@
+/**
+ * @slynova/flydrive
+ *
+ * @license MIT
+ * @copyright Slynova - Romain Lanz <romain.lanz@slynova.ch>
+ */
+import { RuntimeException } from 'node-exceptions';
+export declare class DriverNotSupported extends RuntimeException {
+    driver: string;
+    static driver(name: string): DriverNotSupported;
+}
+//# sourceMappingURL=DriverNotSupported.d.ts.map

@@ -1,0 +1,11 @@
+/**
+ * @slynova/flydrive
+ *
+ * @license MIT
+ * @copyright Slynova - Romain Lanz <romain.lanz@slynova.ch>
+ */
+import { RuntimeException } from 'node-exceptions';
+export declare class MethodNotSupported extends RuntimeException {
+    constructor(name: string, driver: string);
+}
+//# sourceMappingURL=MethodNotSupported.d.ts.map

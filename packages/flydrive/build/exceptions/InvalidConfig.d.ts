@@ -1,0 +1,14 @@
+/**
+ * @slynova/flydrive
+ *
+ * @license MIT
+ * @copyright Slynova - Romain Lanz <romain.lanz@slynova.ch>
+ */
+import { RuntimeException } from 'node-exceptions';
+export declare class InvalidConfig extends RuntimeException {
+    static missingDiskName(): InvalidConfig;
+    static missingDiskConfig(name: string): InvalidConfig;
+    static missingDiskDriver(name: string): InvalidConfig;
+    static duplicateDiskName(name: string): InvalidConfig;
+}
+//# sourceMappingURL=InvalidConfig.d.ts.map

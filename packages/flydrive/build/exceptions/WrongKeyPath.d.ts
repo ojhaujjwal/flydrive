@@ -1,0 +1,12 @@
+/**
+ * @slynova/flydrive
+ *
+ * @license MIT
+ * @copyright Slynova - Romain Lanz <romain.lanz@slynova.ch>
+ */
+import { RuntimeException } from 'node-exceptions';
+export declare class WrongKeyPath extends RuntimeException {
+    raw: Error;
+    constructor(err: Error, path: string);
+}
+//# sourceMappingURL=WrongKeyPath.d.ts.map
